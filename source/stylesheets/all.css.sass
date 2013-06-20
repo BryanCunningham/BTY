@@ -1,0 +1,46 @@
+@import bourbon/bourbon
+$dark: #333
+$light: #eee
+*
+  +box-sizing (border-box)
+
+body
+  font-family: "avenir", sans-serif
+  font-weight: bold
+  width: 100%
+  background: no-repeat
+  background-color: #111111
+  background-size: cover
+  background-position: 50% 0
+  +retina-image(/images/bg, 100%, jpg)
+
+h1
+  margin: 0
+
+.container
+  width: 96%
+  max-width: 960px
+  margin: auto
+  position: relative
+
+.sign_in
+  +size (auto 26)
+  font-size: 12px
+  background: rgba($dark, .6)
+  padding: 5px 30px
+  float: right
+
+header
+  background: rgba($dark, .9)
+  +size (100% 50px)
+  float: right
+  +clearfix
+
+
+
+
+.total
+  display: inline-block
+
+
+
